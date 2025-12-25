@@ -1,3 +1,41 @@
-h1 {
-  color: red;
+.app {
+  background: var(--color-grey-100);
+  padding: var(--space-big-xxl) var(--space-big-m) var(--space-big-m);
+  height: 100vh;
+
+  .title1 {
+    padding-bottom: var(--space-sm);
+    font-size: 26px;
+    text-align: center;
+    font-weight: 100;
+    color: var(--color-grey-400);
+  }
+
+  .title2 {
+    padding-bottom: var(--space-lg);
+    font-size: 26px;
+    text-align: center;
+    font-weight: var(--font-bold);
+    color: var(--color-grey-500);
+  }
+
+  .subtitle {
+    text-align: center;
+    color: var(--color-grey-400);
+    font-size: var(--size-medium);
+    padding-bottom: var(--space-big-xxl);
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    .title1, .title2 {
+      font-size: 34px;
+    }
+
+    .subtitle {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
 }
