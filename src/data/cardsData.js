@@ -7,7 +7,7 @@ const cardsData = [
   {
     id: 1,
     title: "Supervisor",
-    subtitle: "Monitors activity to identify project roadblocks",
+    subtitle: "Monitor activity to identify project roadblocks",
     icon: iconSupervisor,
     position: "left",
     color: "cyan",
